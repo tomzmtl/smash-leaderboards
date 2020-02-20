@@ -1,0 +1,29 @@
+html, body {
+  background: #121313;
+  color: #CCC;
+  font-family: "Roboto Mono", monospace;
+  font-size: 32px;
+}
+
+.Header {
+  padding: 10px;
+  background: #eb8b2b;
+  color: #111;
+}
+
+.Rankings {
+  list-style-type: none;
+}
+
+.Rankings__rank {
+  color: #777;
+  font-size: 60%;
+}
+
+.Rankings__item {
+  padding: 10px;
+}
+
+.Rankings__item + .Rankings__item {
+  margin-top: 1px;
+}
